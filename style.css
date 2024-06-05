@@ -23,7 +23,7 @@ p {margin: 10px 0;}
     padding: 0 30px;}
 .text-p {color: #d4a82f;}
 .lead {
-    font-size: 40px;
+    font-size: 30px;
     font-style: oblique;
     font-weight: 1000;}
 .btn {
@@ -113,7 +113,7 @@ overflow: hidden;}
 
 #homeinfo .info-content h2 {font-size: 40px; line-height: 1em;}
 #homeinfo .info-content p {
-font-size: 25px;
+font-size: 20px;
 padding-bottom: 30px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
