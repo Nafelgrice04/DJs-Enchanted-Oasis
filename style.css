@@ -213,40 +213,28 @@ svg {transition: transform .5s ease-in;}
 }}
 
 /* hotel places */
-#hotel-place {height: 320; background: linear-gradient(90deg, rgb(0, 0, 0), rgb(74, 84, 128), rgb(34, 60, 129), rgb(48, 73, 97), rgb(77, 156, 192), rgb(19, 110, 133), rgb(56, 56, 92), rgb(0, 0, 0));}
-#hotel-place .place{
+#hotel-places {max-height: fit-content; background: linear-gradient(90deg, rgb(0, 0, 0), rgb(74, 84, 128), rgb(34, 60, 129), rgb(48, 73, 97), rgb(77, 156, 192), rgb(19, 110, 133), rgb(56, 56, 92), rgb(0, 0, 0));}
+.place{
     display: block;
     width: 50%;
-    float: left;
+   margin: 0 25%;
     height: 300px;
-    padding: 10 20px;
     border-radius: 20%;
 }
-#hotel-place .custom-container {
+.custom-container {
     display: block;
     border: 5px solid #f0f198;
     display: flex;
-    float: inline-start;
+    text-align: center;
+    padding: 10px;
+   height: 50px;
     width: 40%;
-    margin: 100 20px;
+  color: #fff;
+  margin: 0 30%;
+  margin-bottom: 30px;
     background: #4308e6; border-radius: 30%;
 }
-#hotel-place .place1{
-    display: block;
-    width: 50%;
-    float: right;
-    height: 300px;
-    padding: 0 20px;
-    border-radius: 20%;
-}
-#hotel-place .custom-container1 {
-    display: block;
-    border: 5px solid #f0f198;
-    display: flex;
-    float: inline-end;
-    width: 40%;
-    margin: 100 20px;
-    background: #4308e6; border-radius: 30%;}
+
 .hotel-info {
     font-size: 2em;
 color: #fff;
@@ -325,15 +313,13 @@ background: #333;}
 
 #contactss {width: 80%; margin: 10 10%;}
 
-#accounts {margin-top: 20px;}
+#accounts {width:60%; margin: 0 20%; margin-top: 20px;}
 #accounts .contact-info{
-    width: 60%;
-     height: fit-content;
+    height: fit-content;
     margin: 20 20%;
     color: #333;
     padding: 20px;
     background: linear-gradient(90deg, rgb(0, 0, 0), rgb(19, 35, 107), rgb(48, 77, 158), rgb(33, 83, 131), rgb(54, 109, 134), rgb(36, 122, 143), rgb(10, 9, 66), rgb(0, 0, 0)); color: #fff;
-
     border-radius: 10%;
 }
 #accounts .contact-info p{font-size: 1.5em; text-align: center;}
@@ -348,7 +334,7 @@ float: right; padding: 20px; margin: 10 0%; margin-right: 20%;}
 
 /* Rooms */
 .row {
-    width: 90%;
+    
     height: fit-content;
     text-align: center;
     margin: 20 5%;
@@ -360,6 +346,10 @@ padding-bottom: 40px;
 }
 .room-text, .list-group {
     background: #dae985; font-size: 1.5em; text-align: left; font-weight: 500; padding: 0 10px; padding-bottom: 5px;
+}
+#all-rooms {
+  margin: 20 10%;
+  width: 90%;
 }
 #all-rooms h5 {
     font-size: 2em;
