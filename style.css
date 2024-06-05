@@ -231,6 +231,7 @@ svg {transition: transform .5s ease-in;}
     width: 40%;
   color: #fff;
   margin: 0 30%;
+margin-top: 10%;
   margin-bottom: 30px;
     background: #4308e6; border-radius: 30%;
 }
