@@ -258,56 +258,31 @@ background: #333;}
     transform: scale(1.05);}
 
 /* offers */
-#offer-info .off-pic {
-    font-size: 2em;
-    width: 100%;
-    height: 30%;
+.off-pic {
+    width: 50%;
     padding: 20px;
     border-radius: 50%;
     }
 #offer-info .offer-img {
-    float: left;
-    width: 33.3%;
-    padding: 10px;
+    width: 60%;
+    margin: 0 20%;
+    padding: 20px;
     text-align: center;
 }
 #offer-info h6 {color: #333; text-align: center; background: #24e3e9; font-size: 1.5em; padding: 10px; font-family: 'Tahoma';}
 #offer-info h2 {font-size: 2em; padding: 10px; background: #3ff8e9; color: #333; text-align: center;}
-#offer-info .oth-services-con{
+.other-services {padding: 20px; margin: 0 20%; }
+.oth-services-con{
     border: 5px solid #f0f198;
-    display: flex;
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    height: 180;
-    margin: 10 10%;
+    max-height: fit-content;
     color: #333;
-    background: #97c3ce; border-radius: 10%;
+    background: #97c3ce; 
+    border-radius: 10%;
 }
-#offer-info .oth-services-con h4{font-size: 2em; padding: 20px;}
-#offer-info .oth-services-con p{font-size: 1.5em; padding: 20px;}
-
-#offer-info .pro-ser p {font-size: 1.2em; padding: 2px;}
-#offer-info .pro-ser1 p {font-size: 1.2em; padding: 2px;}
-#offer-info .pro-ser{
-    border: 5px solid #edf854;
-    width: 50%;
-    padding: 5px;
-    height: 100;
-    margin: 10 0%;
-    margin-left: 20%;
-    color: #333; 
-    background: #7dfda8; border-radius: 10%;
-}
-#offer-info .pro-ser1{
-    border: 5px solid #edf854;
-    width: 50%;
-    padding: 10px;
-    height: 100;
-    margin: 10 0%;
-    margin-left: 30%;
-    color: #333;
-    background: #7dfda8; border-radius: 10%;
-}
+.oth-services-con h4{font-size: 2em; padding: 10px; color:#fff;}
+.oth-services-con p{font-size: 1.5em; padding: 10px;}
 
 /* contacts */
 
@@ -322,7 +297,7 @@ background: #333;}
     background: linear-gradient(90deg, rgb(0, 0, 0), rgb(19, 35, 107), rgb(48, 77, 158), rgb(33, 83, 131), rgb(54, 109, 134), rgb(36, 122, 143), rgb(10, 9, 66), rgb(0, 0, 0)); color: #fff;
     border-radius: 10%;
 }
-#accounts .contact-info p{font-size: 20px; text-align: center;}
+#accounts .contact-info p{font-size: 10px; text-align: center;}
 .txt-info {color: yellow;}
 #contactss .form-control-text {color: yellow; width: 80%; height: 115px;}
 #personal-in {padding: 10px;}
@@ -336,20 +311,20 @@ float: right; padding: 20px; margin: 10 0%; margin-right: 20%;}
 .row {
     height: fit-content;
     text-align: center;
-    width: 90%;
-    margin: 20 5%;
     color: #333;
     padding: 20px;
     background: linear-gradient(90deg, rgb(14, 1, 1), rgb(48, 92, 75), rgb(112, 201, 201), rgb(128, 255, 170), rgb(54, 134, 85), rgb(98, 238, 85), rgb(52, 151, 113), rgb(0, 0, 0)); color: #333;
-padding-bottom: 40px;
+padding-bottom: 20px;
     border-radius: 10%;
+
 }
 .room-text, .list-group {
     background: #dae985; font-size: 1.5em; text-align: left; font-weight: 500; padding: 0 10px; padding-bottom: 5px;
 }
 #all-rooms {
-  margin: 10%;
-  width: 90%;
+  margin: 0 10%;
+  margin-bottom: 2%;
+  width: 80%;
 }
 #all-rooms h5 {
     font-size: 2em;
@@ -362,8 +337,7 @@ padding-bottom: 40px;
     padding: 0 10px;
     margin-top: 10%;
     float: left;
-   
  }
- .card-body {text-align:inherit; text-align: start; margin-left: 50%;}
+ .card-body {text-align: start; margin-left: 50%;}
 /*footer*/
 #main-footer {text-align: center; background: #333; color: #fff;}
