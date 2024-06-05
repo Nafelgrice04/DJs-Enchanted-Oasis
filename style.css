@@ -220,6 +220,7 @@ svg {transition: transform .5s ease-in;}
    margin: 0 25%;
     height: 300px;
     border-radius: 20%;
+    margin-top: 10%}
 }
 .custom-container {
     display: block;
