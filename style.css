@@ -322,7 +322,7 @@ background: #333;}
     background: linear-gradient(90deg, rgb(0, 0, 0), rgb(19, 35, 107), rgb(48, 77, 158), rgb(33, 83, 131), rgb(54, 109, 134), rgb(36, 122, 143), rgb(10, 9, 66), rgb(0, 0, 0)); color: #fff;
     border-radius: 10%;
 }
-#accounts .contact-info p{font-size: 1em; text-align: center;}
+#accounts .contact-info p{font-size: 20px; text-align: center;}
 .txt-info {color: yellow;}
 #contactss .form-control-text {color: yellow; width: 80%; height: 115px;}
 #personal-in {padding: 10px;}
