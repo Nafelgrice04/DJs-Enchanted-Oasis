@@ -23,9 +23,10 @@
         padding: 0 30px;}
     .text-p {color: #d4a82f;}
     .lead {
-        font-size: 250px;
+        padding-top: 30px;
+        font-size: 25px;
         font-style: oblique;
-        font-weight: 500;}
+    }
     .btn {
         font-size: 20px;
         font-weight: 1000;
@@ -79,6 +80,7 @@
     #showcase .showcase-content p {
         padding-bottom: 30px;
         line-height: 1em;
+        
         color: blue;}
     
     /* Moreinfo */
