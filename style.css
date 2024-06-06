@@ -333,6 +333,7 @@
     #all-rooms img{
         max-height:fit-content;
         max-width: fit-content;
+        border-radius: 10%;
         padding: 0 10px;
         margin-top: 10px;
        
