@@ -18,9 +18,9 @@
     .contain {
         margin: auto;
         text-align: justify;
-        max-width: 2000px;
+        text-align: center;
         overflow: auto;
-        padding: 0 30px;}
+    }
     .text-p {color: #d4a82f;}
     .lead {
         padding-top: 30px;
@@ -39,7 +39,7 @@
         cursor: pointer;}
     .btn:hover {background: aqua; color: #333;}
     .btn-more {color: #333; background: #fff;}
-    .tri-btn {display: inline-block;
+    .tri-btn {
         color: #4219fa;
         background-color: #fff;
         border-radius: 50%;
@@ -55,15 +55,16 @@
     .clr {clear: both;}
     
     /* Navbar */
-    #navbar {background: #360dee; color: #fff; overflow: auto;}
-    #navbar a {color: #fff;}
-    #navbar .hotellogo {width: 80px; height: 80px; float: inline-start; padding: 10px;}
-    #navbar h1 {float: left; padding-top: 25px;}
-    #navbar ul {list-style: none; float: right;}
-    #navbar ul li {float: left;}
-    #navbar ul li a {display: block; padding: 30px; text-align: center;}
+    #navbar {background: #fff; color: #333; overflow: auto;}
+    #navbar .hotelname {color: #fff; font-size: 50px;}
+    #navbar a {color: #333; font-weight: 500;}
+    #navbar .hotellogo {width: 200px; height: 200px; padding: 10px;}
+    #navbar h1 {text-align: center; padding-top: 15px;}
+    #navbar ul {list-style: none;}
+    #navbar ul li { border-radius: 20%; margin: 0 15px; margin-bottom: 10px; background-color: #fff;}
+    #navbar ul li a {display: block; padding: 20px; text-align: center; font-size: 1.5em;}
     #navbar ul li a:hover,
-    #navbar ul li a.pick {background: #444; color:aqua;}
+    #navbar ul li a.pick {background: aqua; color: #333;}
     
     /* showcase */
     #showcase{
@@ -73,14 +74,14 @@
     #showcase .showcase-content {
         color: #fff;
         text-align: center;
-        padding-top: 100px;
+        padding-top: 50px;
     }
     
     #showcase .showcase-content h1 {font-size: 80px; line-height: 1.2em;}
     #showcase .showcase-content p {
-        padding-bottom: 30px;
+        padding-bottom: 25px;
         line-height: 1em;
-        
+        font-size: 30px;
         color: blue;}
     
     /* Moreinfo */
@@ -331,8 +332,7 @@
     }
     .row p {text-align: center; background: #24e3e9; font-size: 1.5em;}
     #all-rooms img{
-        max-height:fit-content;
-        max-width: fit-content;
+        text-align: center;
         border-radius: 10%;
         padding: 0 10px;
         margin-top: 10px;
