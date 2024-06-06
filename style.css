@@ -314,15 +314,14 @@
         color: #333;
         padding: 20px;
         background: linear-gradient(90deg, rgb(14, 1, 1), rgb(48, 92, 75), rgb(112, 201, 201), rgb(128, 255, 170), rgb(54, 134, 85), rgb(98, 238, 85), rgb(52, 151, 113), rgb(0, 0, 0)); color: #333;
-    padding-bottom: 20px;
+        padding-bottom: 20px;
         border-radius: 10%;
-    
     }
     .room-text, .list-group {
-        background: #dae985; font-size: 1.5em; text-align: left; font-weight: 500; padding: 0 10px; padding-bottom: 5px;
+        background: #dae985; font-size: 1.5em; text-align: center; font-weight: 500; padding: 0 10px; padding-bottom: 5px;
     }
     #all-rooms {
-      margin: 0 10%;
+    margin: 0 10%;
       margin-bottom: 2%;
       width: 80%;
     }
@@ -330,14 +329,14 @@
         font-size: 2em;
         text-align: center;
     }
-    .row p {text-align: left; background: #24e3e9;}
-    .img-top{
-        max-height: 400px;
-        max-width: 350px;
+    .row p {text-align: center; background: #24e3e9; font-size: 1.5em;}
+    #all-rooms img{
+        max-height:fit-content;
+        max-width: fit-content;
         padding: 0 10px;
-        margin-top: 10%;
-        float: left;
+        margin-top: 10px;
+       
      }
-     .card-body {text-align: start; margin-left: 50%;}
+     .card-body {margin: 40px;}
     /*footer*/
     #main-footer {text-align: center; background: #333; color: #fff;}
